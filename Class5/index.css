@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    font-size: 32px;
+    text-align: left;
+
+    }
+h2 {
+    color: brown;
+    font-size: 32px;
+    text-align: left;
+}
+
+li {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
+p {
+    color: blue;
+    font-size: 16px;
+    text-align: left;
+}
+span {
+    color: green;
+
+}
+a {
+    background-color: #000;
+    color: #FFF
+
+}
+
+body {
+    background-color: lightgreen;
+  }
