@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Trabajo fin semana3</title>
+</head>
+
+<body>
+
+  <button onclick="cambiar()">Cambiar Texto</button>
+<Section>
+  <h1 id="titulo">Navbar</h1>
+
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrarnb()">Mostrar Navbar</button>
+
+
+
+
+
+  <section id="navbarmo">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <br>
+
+  <h1 id="titulo">Carousel</h1>
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrarcr()">Mostrar Carousel</button>
+  <section id="carouselmo">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagenes/slide11.jpg" class="d-block w-100" alt="slide 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/slide21.jpg" class="d-block w-100" alt="slide 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="imagenes/slide31.jpg" class="d-block w-100" alt="slide 3">
+                          </div>
+                        </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+
+                        </div>
+
+        </div>
+
+      </div>
+  </section>
+  <br>
+  <!--</div>-->
+
+
+  <!-- <div class="container-c10">
+    <div class="row">
+      <div class="col">Colum</div>
+      <div class="col">Colum</div>
+      <div class="col">Colum</div>
+
+    </div>
+  </div>
+
+  <br>-->
+
+  <!--<div class="container">
+    <div class="card w-50">
+      <div class="card-header"> CARD #1</div>
+      <div class="card-body">
+        <h5 class="card-title">card title</h5>
+        <p class="card-text">Some quick examp</p>
+        <a href="#" class="btn btn-primary">Go somewher</a>
+      </div>
+      <div class="card-footer text-muted"></div>
+      2 days ago
+    </div>
+
+  </div>
+  </div>
+  <br>-->
+
+  <h1 id="titulo">Cards</h1>
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrarcard()">Mostrar Card</button>
+  <section id="cardmo">
+    <div class="container">
+      <div class="row gy-3 my-3">
+        <div class="col-sm-6 col-md-6 col-lg-4 show-col">
+          <div class="card w-100">
+            <div class="card-header">Nariño</div>
+            <img src="imagenes/slide1.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">Some quick examp</p>
+              <a href="#" class="btn btn-primary">Go somewher</a>
+            </div>
+            <div class="card-footer text-muted"></div>
+            2 days ago
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 show-col">
+          <div class="card w-100">
+            <div class="card-header">Santander</div>
+            <img src="imagenes/slide2.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">Some quick examp</p>
+              <a href="#" class="btn btn-primary">Go somewher</a>
+            </div>
+            <div class="card-footer text-muted"></div>
+            2 days ago
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 show-col">
+          <div class="card w-100">
+            <div class="card-header">Bolivar</div>
+            <img src="imagenes/slide3.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">card title</h5>
+              <p class="card-text">Some quick examp</p>
+              <a href="#" class="btn btn-primary">Go somewher</a>
+            </div>
+            <div class="card-footer text-muted"></div>
+            2 days ago
+          </div>
+        </div>
+      </div>
+  </section>
+  <br>
+  </div>
+
+
+
+  <!-- <h2>alertas</h2>
+
+  <div class="alert alert-danger alert-dismissible fade show align-items-center" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+      class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+      <path
+        d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </svg>
+    <strong>Cierralo, no hay problema!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>-->
+
+  <!-- <div class="alert alert-danger" role="alert">
+          A simple danger <a href="#" class="alert-link"> alert—check</a> it out!
+        </div>-->
+
+  <!-- <div class="alert alert-primary d-flex align-items-center" role="alert">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          <div>
+            An example alert with an icon
+          </div>
+        </div>-->
+
+
+  <h1 id="titulo">Tabla</h1>
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrartable()">Mostrar Table</button>
+  <section id="tablemo">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table table-bordered " border="1" align="left">
+            <thead>
+              <th> Otra informacion</th>
+              <tr>
+                <td></td>
+                <td>Lugar</td>
+                <td>Departamento</td>
+                <td>Ciudad</td>
+                <td>Distancia desde Bogota (Km)</th>
+              </tr>
+              <tr>
+                <th>
+                  <left><img src="imagenes/slide11.jpg" width="150" height="100"></left>
+                </th>
+                <td>Rio de los siete colores</td>
+                <td>Meta</td>
+                <td>La Macarena</td>
+                <td>1018</th>
+              </tr>
+
+              <tr>
+                <td>
+                  <center></center><img src="imagenes/slide21.jpg" width="150" height="100"></center>
+                </td>
+                <td>Cartagena</td>
+                <td>Bolivar</td>
+                <td>Cartagena</td>
+                <td>1025</th>
+              </tr>
+              <tr>
+                <th>
+                  <center></center><img src="imagenes/slide31.jpg" width="150" height="100"></center>
+                </th>
+                <td>Baru</td>
+                <td>Bolivar</td>
+                <td>Baru</td>
+                <td>1030s</td>
+              </tr>
+            </thead>
+
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+
+  <!-- <form>
+    <fieldset disabled>
+      <legend>Disabled fieldset example</legend>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Disabled input</label>
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+      </div>
+      <div class="mb-3">
+        <label for="disabledSelect" class="form-label">Disabled select menu</label>
+        <select id="disabledSelect" class="form-select">
+          <option>Disabled select</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" enabled>
+          <label class="form-check-label" for="disabledFieldsetCheck">
+            Can't check this
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </fieldset>
+  </form>-->
+
+  <h1 id="titulo">Formulario</h1>
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrarfm()">Mostrar Formulario</button>
+  <section id="formulariomo">
+  <div class="container">
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div class="alert alert-danger alert-dismissible fade show align-items-center" role="alert">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+        class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+        <path
+          d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+      </svg>
+      <strong>Cierralo, no hay problema!</strong> You should check in on some of those fields below.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
+</section>
+<br>
+
+
+  <h1 id="titulo">listas</h1>
+  <div id="mydiv">Original Content</div>
+  <button onclick="mostrarlst()">Mostrar lista</button>
+  <section id="listamo">
+  <div class="container">
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        The current link item
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+      <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+      <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled
+        link item</a>
+    </div>
+</section>
+<br>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+    </script>
+    <script src="stylejs.js"></script>
+
+  </Section>
+</body>
+
+</html>
