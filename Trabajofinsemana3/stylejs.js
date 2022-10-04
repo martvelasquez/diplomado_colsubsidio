@@ -9,7 +9,17 @@ document.querySelector("mydiv").innerHTML = "Changing Text Here"*/
 
 function cambiar(){
    document.getElementsByTagName('h1')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h2')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h3')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h4')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h5')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h6')[0].innerHTML="Cambiar"
+   document.getElementsByTagName('h7')[0].innerHTML="Cambiar"
+
+
 }
+
+/*section.children[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12].textContent = "Otro titulo mas"*/
 
 
 
